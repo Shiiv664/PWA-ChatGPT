@@ -1,13 +1,12 @@
 // Minimal service worker for PWA requirements
 // This service worker enables the app to be installable
 
-const CACHE_NAME = 'chatgpt-pwa-v4';
+const CACHE_NAME = 'chatgpt-pwa-v5';
 const urlsToCache = [
   '/',
   '/index.html',
   '/manifest.json',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png'
+  '/icons/ChatGPT-Logo.svg'
 ];
 
 // Install event - cache essential files
